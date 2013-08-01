@@ -89,7 +89,7 @@
 	private function includes() {
 		
 		require_once self::$path . 'includes/metaboxes.php';
-	//	require_once self::$path . 'frontend/class-yardi-api.php';
+		require_once self::$path . 'frontend/class-endorse-heads.php';
 
 	}
 

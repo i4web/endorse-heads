@@ -153,7 +153,6 @@ function i4_show_box_endorsement() {
 	
 	}	
 
-
 	/**
 	 * Saves Data When Post is Edited
 	 *
