@@ -176,7 +176,7 @@ class Endorse_Heads_Frontend {
 					
 			//Display The Endorsers Name
 			echo '<tr>
-				  <td><b>' .get_the_title() .'</b> </td>
+				  <td><h6><strong>' .get_the_title() .'</strong></h6> </td>
 				  <td>';
 			echo $this->get_business_name(true);
 			echo '</td>
