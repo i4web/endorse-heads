@@ -27,7 +27,9 @@ class Endorse_Heads_Frontend {
 	  public function endorse_heads_loop() {
 
 		//Setup the args
+		
 		$args = array(
+			'posts_per_page' => -1,
 			'post_type' => 'tennis_endorsement',  //query the endorsements post type
 			'meta_key' => 'i4_endorser_display',  //query the Endorser Heads
 			'meta_value' => 'Endorser Heads'
@@ -146,7 +148,10 @@ class Endorse_Heads_Frontend {
 	  public function non_endorse_heads_loop() {
 		  
 		  	//Setup the args
+		
+			
 		$args_no_heads = array(
+			'posts_per_page' => -1, 	
 			'post_type' => 'tennis_endorsement',  //query the endorsements post type
 			'meta_key' => 'i4_endorser_display',  //query the Endorser Heads
 			'meta_value' => 'Normal Listing'
